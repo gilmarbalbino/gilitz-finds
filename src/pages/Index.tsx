@@ -4,23 +4,12 @@ import WelcomeModal from "@/components/WelcomeModal";
 import GameUI from "@/components/GameUI";
 
 const Index = () => {
-  const [gameStarted, setGameStarted] = useState(false);
-  const [selectedShip, setSelectedShip] = useState<string | null>(null);
-
-  const handleStart = (ship: string) => {
-    setSelectedShip(ship);
-    setGameStarted(true);
-  };
+  const [started, setStarted] = useState(false);
 
   return (
-    <main className="min-h-screen relative overflow-hidden">
+    <main className="min-h-screen">
       <SpaceBackground />
-      
-      {!gameStarted ? (
-        <WelcomeModal onStart={handleStart} />
-      ) : (
-        <GameUI ship={selectedShip!} />
-      )}
+      {!started ? <WelcomeModal onStart={() => setStarted(true)} /> : <GameUI />}
     </main>
   );
 };
