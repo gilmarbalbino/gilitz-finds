@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
-const WelcomeModal = () => {
+interface WelcomeModalProps {
+  onStart: () => void;
+}
+
+const WelcomeModal = ({ onStart }: WelcomeModalProps) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,7 +16,7 @@ const WelcomeModal = () => {
         <h1 className="text-2xl font-display text-primary text-glow-cyan">
           Welcome, Space Explorer!
         </h1>
-        <Button variant="cosmic">START</Button>
+        <Button variant="cosmic" onClick={onStart}>START</Button>
       </div>
     </motion.div>
   );
