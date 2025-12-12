@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 const ContactSection = () => {
   const socials = [
     { icon: Github, label: "GitHub", href: "#" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/gilmarbalbin" },
-    { icon: Mail, label: "Email", href: "mailto:seuemail@exemplo.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/gilmarbalbino" },
+    { icon: Mail, label: "Email", href: "gilmar:gilmarbalbino800@gmail.com" },
   ];
 
   return (
