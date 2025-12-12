@@ -24,7 +24,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-5xl md:text-7xl font-display font-bold text-foreground"
         >
-          Seu Nome <span className="text-primary text-glow-cyan">Aqui</span>
+          Gilmar <span className="text-primary text-glow-cyan">Balbino</span>
         </motion.h1>
         
         <motion.p
