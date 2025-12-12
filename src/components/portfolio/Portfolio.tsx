@@ -18,7 +18,7 @@ const Portfolio = () => {
       <ContactSection />
       
       <footer className="py-8 text-center text-muted-foreground text-sm">
-        <p>© 2024 Seu Nome. Todos os direitos reservados.</p>
+        <p>© 2024 Gilmar Balbino. Todos os direitos reservados.</p>
       </footer>
     </motion.div>
   );
