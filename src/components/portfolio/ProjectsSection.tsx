@@ -7,16 +7,22 @@ const ProjectsSection = () => {
       title: "Projeto Alpha",
       description: "Aplicação web moderna com React e TypeScript",
       tags: ["React", "TypeScript", "Tailwind"],
+      githubUrl: "", // Adicione o link do GitHub aqui
+      liveUrl: "", // Adicione o link do site aqui (opcional)
     },
     {
       title: "Projeto Beta",
       description: "Sistema de gerenciamento com dashboard interativo",
       tags: ["Node.js", "PostgreSQL", "API"],
+      githubUrl: "", // Adicione o link do GitHub aqui
+      liveUrl: "", // Adicione o link do site aqui (opcional)
     },
     {
       title: "Projeto Gamma",
       description: "E-commerce responsivo com pagamentos integrados",
       tags: ["Next.js", "Stripe", "Prisma"],
+      githubUrl: "", // Adicione o link do GitHub aqui
+      liveUrl: "", // Adicione o link do site aqui (opcional)
     },
   ];
 
@@ -70,12 +76,28 @@ const ProjectsSection = () => {
               </div>
 
               <div className="flex gap-3">
-                <button className="text-muted-foreground hover:text-primary transition-colors">
-                  <Github className="w-5 h-5" />
-                </button>
-                <button className="text-muted-foreground hover:text-primary transition-colors">
-                  <ExternalLink className="w-5 h-5" />
-                </button>
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label="Ver código no GitHub"
+                  >
+                    <Github className="w-5 h-5" />
+                  </a>
+                )}
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label="Ver site ao vivo"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}
