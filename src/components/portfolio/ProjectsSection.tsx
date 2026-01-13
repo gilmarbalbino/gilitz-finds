@@ -9,20 +9,23 @@ const ProjectsSection = () => {
       tags: ["HTML", "CSS", "Web"],
       githubUrl: "https://github.com/gilmarbalbino/SENAC-AL-AULAS-HTML",
       liveUrl: "",
+      imageUrl: "", // Adicione a URL da imagem aqui
     },
     {
       title: "Projeto Beta",
       description: "Sistema de gerenciamento com dashboard interativo",
       tags: ["Node.js", "PostgreSQL", "API"],
-      githubUrl: "", // Adicione o link do GitHub aqui
-      liveUrl: "", // Adicione o link do site aqui (opcional)
+      githubUrl: "",
+      liveUrl: "",
+      imageUrl: "", // Adicione a URL da imagem aqui
     },
     {
       title: "Projeto Gamma",
       description: "E-commerce responsivo com pagamentos integrados",
       tags: ["Next.js", "Stripe", "Prisma"],
-      githubUrl: "", // Adicione o link do GitHub aqui
-      liveUrl: "", // Adicione o link do site aqui (opcional)
+      githubUrl: "",
+      liveUrl: "",
+      imageUrl: "", // Adicione a URL da imagem aqui
     },
   ];
 
@@ -53,8 +56,18 @@ const ProjectsSection = () => {
               transition={{ delay: index * 0.1 }}
               className="glass-card p-6 group hover:border-primary/50 transition-all"
             >
-              <div className="aspect-video bg-primary/10 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-primary/50 text-sm">Preview</span>
+              <div className="aspect-video bg-primary/10 rounded-lg mb-4 overflow-hidden">
+                {project.imageUrl ? (
+                  <img 
+                    src={project.imageUrl} 
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <span className="text-primary/50 text-sm">Sem imagem</span>
+                  </div>
+                )}
               </div>
               
               <h3 className="font-display font-semibold text-foreground mb-2">
