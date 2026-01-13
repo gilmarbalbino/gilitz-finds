@@ -17,7 +17,7 @@ const ProjectsSection = () => {
       tags: ["Node.js", "PostgreSQL", "API"],
       githubUrl: "",
       liveUrl: "",
-      imageUrl: "", // Adicione a URL da imagem aqui
+      imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
     {
       title: "Projeto Gamma",
@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       tags: ["Next.js", "Stripe", "Prisma"],
       githubUrl: "",
       liveUrl: "",
-      imageUrl: "", // Adicione a URL da imagem aqui
+      imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
   ];
 
