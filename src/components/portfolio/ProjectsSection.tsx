@@ -4,11 +4,11 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Projeto Alpha",
-      description: "Aplicação web moderna com React e TypeScript",
-      tags: ["React", "TypeScript", "Tailwind"],
-      githubUrl: "", // Adicione o link do GitHub aqui
-      liveUrl: "", // Adicione o link do site aqui (opcional)
+      title: "SENAC-AL Aulas HTML",
+      description: "Aulas e exercícios de HTML do curso SENAC-AL",
+      tags: ["HTML", "CSS", "Web"],
+      githubUrl: "https://github.com/gilmarbalbino/SENAC-AL-AULAS-HTML",
+      liveUrl: "",
     },
     {
       title: "Projeto Beta",
