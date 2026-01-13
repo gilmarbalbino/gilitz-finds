@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       tags: ["HTML", "CSS", "Web"],
       githubUrl: "https://github.com/gilmarbalbino/SENAC-AL-AULAS-HTML",
       liveUrl: "",
-      imageUrl: "", // Adicione a URL da imagem aqui
+      imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
     {
       title: "Projeto Beta",
