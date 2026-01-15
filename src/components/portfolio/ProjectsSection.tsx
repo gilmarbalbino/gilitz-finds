@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
     {
-      title: "Projeto Gamma",
+      title: "SENAC-AL Projeto DevBot",
       description: "E-commerce responsivo com pagamentos integrados",
       tags: ["Next.js", "Stripe", "Prisma"],
       githubUrl: "",
