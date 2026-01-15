@@ -4,7 +4,7 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "SENAC-AL Aulas HTML",
+      title: "SENAC-AL Projeto Jogo da Velha",
       description: "Aulas e exercícios de HTML do curso SENAC-AL",
       tags: ["HTML", "CSS", "Web"],
       githubUrl: "https://github.com/gilmarbalbino/SENAC-AL-AULAS-HTML",
