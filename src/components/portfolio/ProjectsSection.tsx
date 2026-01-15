@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
     {
-      title: "Projeto Beta",
+      title: "SENAC-AL Projeto CadCliente",
       description: "Sistema de gerenciamento com dashboard interativo",
       tags: ["Node.js", "PostgreSQL", "API"],
       githubUrl: "",
