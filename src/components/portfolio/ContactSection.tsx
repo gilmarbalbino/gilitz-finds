@@ -6,7 +6,7 @@ const ContactSection = () => {
   const socials = [
     { icon: Github, label: "GitHub", href: "#" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/gilmarbalbino" },
-    { icon: Mail, label: "Email", href: "gilmar:gilmarbalbino800@gmail.com" },
+    { icon: Mail, label: "Email", href: "mailto:gilmarbalbino800@gmail.com" },
   ];
 
   return (
