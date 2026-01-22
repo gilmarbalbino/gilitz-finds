@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       title: "SENAC-AL Projeto DevBot",
       description: "E-commerce responsivo com pagamentos integrados",
       tags: ["Next.js", "Stripe", "Prisma"],
-      githubUrl: "",
+      githubUrl: "https://github.com/gilmarbalbino/SENAC-AL-AULAS-Dev-Bot",
       liveUrl: "",
       imageUrl: "https://www.hostnet.com.br/wp-content/uploads/2022/07/criar-reformular-site-loja-virtual-wordpress.png",
     },
